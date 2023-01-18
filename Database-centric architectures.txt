@@ -8,7 +8,7 @@ What is the main advantage of using a key-value store over other types of NoSQL 
 
   * Key-value stores are simple, fast and horizontally scalable making them ideal for handling large amounts of data and high traffic with minimal latency.
   
-  Can you explain what sharding is and how it works in MongoDB?
+Can you explain what sharding is and how it works in MongoDB?
   
   * Sharding is a way to split a database into smaller parts called shards, which are stored on different servers. 
   This allows the database to handle more data and handle more requests. MongoDB uses sharding to divide the data in the database based on a certain key, this way when a request is made, it knows which shard to look in for the requested data. 
