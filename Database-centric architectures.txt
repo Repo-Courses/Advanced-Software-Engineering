@@ -24,4 +24,14 @@ What is the main benefit of using a graph database over a relational database fo
 
   * A relational database stores data in tables, like a spreadsheet, and uses relationships (like links or keys) to connect data in different tables. 
     This is good for structured data with a clear schema.
+    
+Map Reduce,
+
+ MapReduce is a programming model and an associated implementation for processing and generating large data sets in a distributed computing environment. It was first introduced by Google in a research paper in 2004. The idea behind MapReduce was to provide a simple and powerful abstraction for processing large data sets in parallel across a cluster of machines.
+
+MapReduce consists of two main operations: the map operation and the reduce operation. The map operation takes an input dataset and applies a function to each element, producing a set of intermediate key-value pairs. The reduce operation takes the intermediate key-value pairs and combines them together based on the key, producing a set of output key-value pairs. The process of shuffling and sorting is done in between the map and reduce operations, which allows for more efficient data processing.
+
+MapReduce was designed to be a simple and general-purpose programming model, which could be applied to a wide range of big data processing tasks. This simplicity and versatility have made it a popular choice for processing large datasets in many fields such as finance, social media, and e-commerce.
+
+In recent years, many alternative frameworks have been developed to address some of the limitations of MapReduce, such as, the lack of support for real-time processing, and the need for more sophisticated data processing capabilities. However, MapReduce remains a widely used and powerful tool for processing large data sets in a distributed computing environment.
 
