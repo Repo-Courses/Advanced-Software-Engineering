@@ -1,0 +1,41 @@
+Blockchain is a distributed database that maintains a continuously-growing list of ordered records called blocks. Each block contains a timestamp and a link to a previous block.
+Blockchain systems enable parties who don’t fully trust each other to form and maintain consensus about the existence, status and evolution of a set of shared facts.
+In Bitcoin blockchain, the structure of the blockchain is a strict sequence of transactions and the state modified by the transactions is not stored on the blockchain.
+Wallet Owner, Full Node and Miner are the main roles in blockchain network. Wallet owner owns the money, Full node validates every transaction and block, and Miner creates new blocks and tries to solve the mining puzzle.
+Reaching consensus in a decentralized network is a challenge, Approaches like proof of work and proof of stake are used to address them.
+Here are some questions to test your understanding:
+
+What is the main purpose of a blockchain system?
+  
+  * The main purpose of a blockchain system is to create a decentralized mechanism for transactions, where parties who do not fully trust each other can still come to a consensus about the existence, status, and evolution of a set of shared facts. 
+  This allows for transparency, security, and immutability in the transactions and record keeping. Blockchain enables parties who don't trust each other to form of mechanism to have same right with all other users.    
+
+What is the function of a wallet owner in the blockchain network?
+
+  * A wallet owner in a blockchain network is like having a bank account. The wallet owner has a private key, like a password, which is used to access the money in the account (unspent transactions). 
+  Wallet owners can use the money by sending transactions, like writing a check, but they need to sign it with the private key to make sure that the transaction is valid.
+
+How does the Bitcoin blockchain structure records transactions?
+
+  * "The Bitcoin blockchain records transactions by adding them to blocks in a strict sequence, creating a chain of blocks that make up the blockchain. Each block contains a timestamp and a link to the previous block and the state modified by the transactions is not stored on the blockchain, but the changes made to the state in the form of transactions. Once the transactions are added to the block, the block is broadcasted to the network and added to the blockchain, creating a permanent and unchangeable record of the transaction ensuring the immutability and transparency of the transactions."
+
+What are the main approaches for reaching consensus in a decentralized network?
+
+  * Firstly, reaching consensus in a decentralized network means that all the participants in the network agree on the state of the network, specifically on the contents of the blockchain. 
+  It ensures the integrity and security of the blockchain network, maintaining trust and enabling secure and transparent transactions. Different methods like proof of work and proof of stake are used to reach consensus in a decentralized network.
+  
+  * Proof of Work (PoW)
+    Proof of Stake (PoS)
+    Proof of Work is a consensus mechanism that is used to achieve agreement on the state of a blockchain, by having users called "miners" perform a computational puzzle to validate the transactions and create new blocks. Miners are rewarded for their work with cryptocurrency.
+    Proof of Stake is a consensus mechanism that is used to achieve agreement on the state of a blockchain, by having users who hold a certain amount of cryptocurrency called "stake" validate the transactions and create new blocks. The probability of a user being selected to create a new block is proportional to the amount of stake they hold.
+    Both PoW and PoS have their own advantages and disadvantages and different blockchain platforms may use one or the other, or even a combination of both.
+
+What is the role of a miner in the blockchain network?
+
+    Role of a miner in the blockchain network:
+
+    * Verifying transactions and adding them to blocks.
+    * Solving complex mathematical puzzles (proof of work consensus).
+    * Creating new blocks and broadcast them to the network.
+    * Maintaining a copy of the blockchain.
+    * Receiving rewards for creating new blocks and verifying transactions
