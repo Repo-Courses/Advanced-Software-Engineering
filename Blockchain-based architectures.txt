@@ -50,3 +50,9 @@ Properties of smart contract,
 ▪ Isolated Execution
 ▪ Terminating execution
 
+
+Blockchain-based architectures
+Drawbacks
+▪ High execution costs
+▪ Increased organizational and legal complexity
+▪ Paradigm shifting for the development of new business models.
