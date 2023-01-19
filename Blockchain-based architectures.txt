@@ -39,3 +39,14 @@ What is the role of a miner in the blockchain network?
     * Creating new blocks and broadcast them to the network.
     * Maintaining a copy of the blockchain.
     * Receiving rewards for creating new blocks and verifying transactions
+
+What is the main function of a smart contract in a blockchain network, and how does it enable trustless and automated execution of transactions?
+
+A smart contract is a self-executing contract with the terms of the agreement written directly into code. The main function of a smart contract in a blockchain network is to automate the execution of transactions, without the need for intermediaries or trust. It enables trustless and automated execution of transactions by allowing the contract to be executed automatically once certain conditions are met, as specified in the contract's code. This can help to ensure that the terms of the contract are executed as intended, without the need for a central authority to enforce the contract.
+
+Properties of smart contract, 
+▪ Deterministic execution
+▪ Limited use of third-party library code
+▪ Isolated Execution
+▪ Terminating execution
+
