@@ -1,0 +1,42 @@
+What is the purpose of middleware in application integration?
+
+  Middleware is a software that acts as a bridge between different applications, allowing them to communicate and share data. It can also provide additional functionality such as security, data transformation, and message routing. An example of middleware is a firewall, which is a middleware application that increases the security of the application. 
+  In short, middleware is used for the purpose of application integration, it help to transmit data between application, and can also be used to provide security and other functionalities.
+
+How does the use of middleware lead to a proliferation of services?
+
+  The use of middleware leads to a proliferation of services because it allows different systems and applications to communicate and work together seamlessly.
+  Middleware acts as a bridge between different systems, allowing them to share data and functionality. This means that instead of having to create custom connections between every single system and application, middleware allows them to connect to one central point and share information. 
+  This makes it easier to add new services and systems to a network, leading to a proliferation or increase in the number of services available.
+
+
+What is Enterprise Application Integration (EAI) and what are its building blocks?
+
+  The building blocks of EAI are:
+
+  Middleware: Middleware serves as a bridge between different applications, allowing them to communicate and share data.
+  Adapter: Adapters are used to connect different applications, whether they use different technologies, platforms or protocols.
+  Integration Broker: Integration brokers are used to route messages between applications and to manage the flow of data.
+  Services: Services are specific functionality that can be shared and reused across different applications.
+  Business Process Management: Business Process Management (BPM) is used to manage the flow of data and to automate the execution of business processes.
+  Data Transformation: Data transformation is used to convert data from one format to another, allowing different applications to share and understand data.
+  Security: Security is an important aspect of EAI as it ensures that data is protected during transmission and that only authorized parties have access to it.
+  In summary, Enterprise Application Integration (EAI) is a methodology and set of technologies that helps connecting different applications within an organization, by using building blocks such as Middleware, Adapter, Integration Broker, Services, Business Process Management, Data Transformation and Security.
+
+How do message brokers act as a broker among system entities in EAI?
+
+  A message broker in EAI acts as a central hub for routing and managing the flow of messages between different system entities, allowing them to communicate and share data without direct connection. 
+  They also provide additional functionalities like data transformation, message queuing, and security.
+
+How does the publish/subscribe interaction model work in EAI with a message broker?
+
+  In summary, the publish/subscribe interaction model in EAI with a message broker allows for different system entities, known as publishers and subscribers, to communicate with each other through the broker. 
+  The broker distributes messages from the publishers to all interested subscribers, allowing for a flexible and dynamic system, and also can filter messages and route them to specific subscribers.
+
+How do adapters map heterogeneous data formats, interfaces, and protocols into a common model and format in EAI?
+
+How does the use of message brokers decouple senders and receivers in EAI?
+
+Explain the difference between traditional RPC-based and MOM systems and message brokers in EAI.
+
+Why is the routing logic for messages typically defined in a rule-based language in EAI message brokers?
