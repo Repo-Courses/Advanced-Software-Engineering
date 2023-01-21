@@ -1,0 +1,8 @@
+Explain what is the main purpose of object broker in distributed object-oriented systems.
+
+  The main purpose of an object broker is to provide a simplified and abstract way of developing distributed object-oriented applications, by handling the complexities of communication, data marshalling(siralamak), and other services related to the distribution.
+  
+  
+  CORBA (Common Object Request Broker Architecture) is a standard specification for an object broker that provides a set of features to support the development of distributed object-oriented systems.
+-It is language and OS independent, providing location transparency, object-oriented, dynamic service selection and invocation, and interoperability between different systems.
+-It simplifies the development of distributed systems by abstracting away the complexities of network communication and data marshalling.
