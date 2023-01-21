@@ -1,0 +1,72 @@
+A three-layered web architecture is a type of software architecture that is commonly used in web applications. It consists of three main layers: the presentation layer, the business layer, and the data layer.
+
+  The presentation layer is the topmost layer and is responsible for interacting with the user. It is the front-end of the application and typically includes the user interface (UI) and any logic related to rendering the UI.
+
+  The business layer is the middle layer and is responsible for processing and manipulating data. It is the layer where the main business logic and business workflow of the application is implemented.
+
+  The data layer is the bottom layer and is responsible for interacting with the data sources, such as databases. It includes data access components, data utilities, and any other components related to data management.
+  
+A typical three-layered web architecture consisting of a client, web server, presentation layer, business layer, and data layer.
+
+The architecture is viewed from a database-centric perspective and includes cross-cutting security and operational management.
+
+Java Enterprise Edition (JEE) multi-tier architecture with client tier, web tier, business tier, and enterprise information system tier.
+
+JEE's application server mediates access to system resources and provides functionality encapsulated in containers.
+
+Enterprise Java Beans (EJB) for realizing business logic and deployed within EJB containers.
+
+Different types of EJBs such as session beans, message-driven beans, and entities beans.
+
+The contents of an enterprise bean and the different ways in which clients can access enterprise beans.
+
+An example of a stateless session bean provided.
+
+Java Persistence API (JPA) replaces the concept of entities beans and allows persistent deployment of POJOs to relational databases via object-relational mapping.
+
+
+AUTOSAR (AUTomotive Open System Architecture) is a standardized automotive reference architecture developed by major car OEMs and suppliers (BMW, Daimler, Ford, Bosch, Continental, Siemens, etc.)
+
+It follows a component-based and model-based development model and focuses on non-functional requirements such as modularity, scalability, portability, and reusability.
+
+The architecture consists of AUTOSAR Software Components (SW-C) that encapsulate an application which runs on the AUTOSAR infrastructure. SW-C have well-defined interfaces that are described and standardized.
+
+The Virtual Functional Bus (VFB) is the sum of all communication mechanisms provided by AUTOSAR on an abstract level that allows for virtual integration in an early development phase.
+
+AUTOSAR also provides description formats for the system, resources, and configuration of the ECUs.
+
+The methodology and tool support for building a concrete system of ECUs includes the configuration and generation of the Runtime Environment (RTE) and the Basic Software on each ECU.
+
+The architecture includes a Application layer, AUTOSAR RTE layer, Basic Software layer and Microcontroller Abstraction layer.
+
+The architecture also includes Component & Connector (C&C) view, which defines the communication between components through ports and connections managed by the Runtime Environment.
+
+Mobile application architectures have basic requirements such as supporting handheld devices, simple UI for small screens, offline or occasionally connected scenarios, and device-independence with network connectivity.
+
+Android is an open-source mobile system reference architecture initiated by Open Handset Alliance under the lead of Google, and combines operating system, middleware, and applications. 
+
+It has a component-based reference architecture for apps using Java, deployment focus on touch smartphones and tablets and NFRs such as modularity, portability, reusability and security.
+
+The Android architecture has a typical 4/5 layer structure, with layers including Application, Framework, Library, Runtime, and Kernel. It has high extensibility and information hiding.
+
+The Android module view includes Linux Kernel Layer, Library Layer, Runtime Layer, Framework Layer, and Application Layer.
+
+App development on Android is based on Android SDK, using standard Java and Android APIs, compiled to Java bytecode and converted to Dalvik-compatible executables.
+
+The allocation view for Android apps shows that it consists of classes, resources, and a manifest, and deployment includes sandboxing of apps into own processes with own VMs for security by isolation.
+
+OSGi is a set of specifications that define a dynamic component system for Java. It enables a development model where applications are composed of many different reusable components.
+
+OSGi components are called Bundles, which are modules that hide their internals from other bundles and communicate through well-defined services.
+
+There are many frameworks available for OSGi (Eclipse Equinox, Apache Felix, Knoplerfish, etc.)
+
+OSGi has a layered model, with Bundles, Services, Life-Cycle, Modules, Security, and Execution Environment.
+
+Bundles are deployed on an OSGi framework, which is a collaborative environment that allows bundles to share code.
+
+OSGi has a standardized management API that allows bundles to install, start, stop, update, and uninstall other bundles, as well as enumerating the bundles and their service usage.
+
+The benefits of OSGi include reduced complexity, better reuse, adaptability to real-world scenarios, easy deployment, dynamic updates, and transparency.
+
+Versioning is also supported in OSGi, allowing for different versions of the same bundle to coexist and be used by different parts of the system.
