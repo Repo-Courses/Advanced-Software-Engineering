@@ -1,0 +1,46 @@
+Explain the main characteristics of reactive systems and the benefits they provide.
+
+An example of a reactive system is a real-time online chat application. The chat application would need to be responsive to handle a high volume of users, resilient to handle failures and continue operating, elastic to handle varying loads, and message-driven to ensure that messages are passed asynchronously between users.
+Another example could be an e-commerce platform that needs to handle a large number of users, process transactions quickly and reliably, and be able to scale to handle increased traffic during peak shopping periods. The platform would be designed to be responsive, resilient, elastic and message-driven.
+A third example can be a trading platform that needs to process a large number of financial transactions in real-time, handle failures without interruption, and scale to handle varying traffic levels. The platform would be designed to be responsive, resilient, elastic and message-driven.
+
+Reactive systems are systems that are responsive, resilient, elastic, and message-driven, and capable of producing a real-time feel. 
+
+The main characteristics of reactive systems are:
+Responsive: focus on providing rapid and consistent response times.
+Resilient: stays responsive in the face of failure.
+Elastic: stays responsive under varying workload.
+Message-driven: asynchronous message-passing between components.
+Benefits of reactive systems include:
+Scalability
+Fault-tolerance
+Performance
+Flexibility
+Maintainability
+
+Actor model: A computational model that embodies
+  ▪ Processing
+  ▪ Storage
+  ▪ Communication
+
+What is an Actor?
+  ▪ An actor
+  ▪ is an object with identity
+  ▪ has a behavior
+  ▪ only interacts using asynchronous message passing
+
+The actor model has several advantages:
+
+  Concurrent execution: Actors allow for concurrent execution of computations, which can lead to better performance and scalability.
+  Loose coupling: Actors communicate with one another solely through message passing, which ensures that the system is loosely coupled and easy to reason about.
+  Location transparency: Actors can be deployed on different machines or in different processes, and this is transparent to the other actors in the system.
+  Fault-tolerance: Actors can handle failures and continue operating, which makes the system more resilient.
+  Scalability: Actors can be created and destroyed dynamically, which allows the system to scale on demand.
+
+However, the actor model also has some disadvantages:
+
+  Increased complexity: The actor model can be more complex to understand and implement than other models.
+  Increased development time: Building systems using the actor model can take longer than using other models.
+  Limited language support: Not all programming languages support the actor model natively, which can make it more difficult to implement in certain languages.
+  Limited debugging capabilities: Debugging actor-based systems can be more difficult than debugging other types of systems.
+  Performance overhead: The message-passing nature of the actor model can introduce some performance overhead, which can be significant in certain cases.
