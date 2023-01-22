@@ -69,8 +69,3 @@ Compare and contrast service-oriented architecture with other architectural styl
 Discuss the role of service registries in service-oriented architecture and how they enable service discovery.
 
  service registries play a crucial role in service-oriented architecture by providing a central location for service discovery, enabling loose coupling between services, and allowing for the easy integration of new services into the system. They provide a way to discover available services, check the service's contract and version, and manage the services throughout their lifecycle.
-
-Give an example of a real-world application of service-oriented architecture and explain how the principles of SOA have been applied in this case.
-
-How does service-oriented architecture support business process orchestration and what are the benefits of this approach?
-
