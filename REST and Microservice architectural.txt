@@ -1,0 +1,41 @@
+REST (Representational State Transfer) is an architectural style for building web services. It is based on a client-server architecture, where a client (such as a web browser) makes a request to a server, and the server returns a response. The key principles of REST include:
+
+  Client-Server Architecture: The client and server are separate entities that communicate over a network. The client is responsible for the user interface and user experience, while the server is responsible for data storage and business logic. This separation of concerns allows for a more modular and scalable design.
+
+  Statelessness: The server does not maintain any state information about the client between requests. This means that each request from the client must contain all the information necessary for the server to understand and respond to the request. This makes it easier to scale the server and also allows for greater flexibility in the client-server interactions.
+
+  Caching: Responses from the server can be cached by the client to improve performance and reduce network traffic. This is done by including cache control headers in the server's response, which tell the client how long it can cache the response before it needs to check with the server again.
+
+  Layered System: The system can be composed of multiple layers. For example, a web application might be composed of a client-side layer (such as a web browser), a server-side layer (such as a web server), and a data storage layer (such as a database). Each layer can be developed and maintained independently, which makes the system more modular and easier to scale.
+
+
+The REST methods include minimum methods such as:
+
+  GET: This method is the HTTP equivalent of COPY and it transfers a representation of a resource from the server to the client.
+  
+  PUT: This method is the HTTP equivalent of PASTE OVER and it transfers state from the client to a resource, overwriting any existing state.
+  
+  POST: This method is the PASTE AFTER verb, it is used to create a resource or add to an existing resource, without overwriting what already exists.
+  
+  DELETE: This method is the HTTP equivalent of CUT, it requests the server to delete the resource and destroy its state.
+
+
+Microservice architecture is a way of designing software applications as a suite of independently deployable services, each running in its own process and communicating with lightweight mechanisms such as HTTP resource APIs. The key characteristics of microservices include:
+
+Componentization via services: Microservices are organized around business capabilities, breaking down software into small, independently replaceable and upgradeable services.
+
+Organized around business capabilities: Services are focused on providing a specific business capability, allowing for a more modular and scalable design.
+
+Independently deployable: Services can be deployed independently of each other, allowing for more flexibility in the development and deployment process.
+
+More explicit component interface: Services have a clear and well-defined interface, making it easier for different components to communicate with each other.
+
+Smart endpoints and dumb pipes: Services contain their own domain logic and act as filters, while the communication infrastructure (such as messaging or HTTP) is kept simple.
+
+Decentralized governance: Decentralized governance allows for more flexibility in the use of technology platforms and avoids constraining solutions to a set of predefined standards.
+
+Decentralized data management: Each service manages its own database, allowing for more flexibility in the management and storage of data.
+
+Products not projects: Teams are responsible for a product over its full lifetime, with a focus on DevOps and day-to-day contact with how software behaves in production and users.
+
+Overall, microservices architecture allows for more flexibility, scalability and maintainability in the design and development of software applications, with each service being responsible for a specific business capability.
