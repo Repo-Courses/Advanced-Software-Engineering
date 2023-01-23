@@ -1,0 +1,128 @@
+4.1 Virtual machines and containers
+
+Virtualization is a combination of software and hardware engineering that creates Virtual Machines (VMs) - an abstraction of the computer hardware that allows a single machine to act as if it were many machines.
+Virtual machines (VMs) refers to a software abstraction that looks like a computer system's hardware.
+Emulation involves emulating the physical machine’s hardware and architecture, while virtualization involves simply isolating the virtual machine within memory.
+Characteristics of virtual machines:
+Software compatibility: The virtual machine provides a compatible abstraction so that all software written for it will run on it.
+Isolation: The virtual machine abstraction isolates the software running in the virtual machine from other virtual machines and real machines.
+Virtualization enables the cloud: Virtualization is the underpinning for the majority of high-performing clouds and is a successful IT strategy for consolidating servers.
+4.2 Software architectures for the cloud
+
+Virtual machines in the cloud: Virtualization and cloud computing are used to pool infrastructure resources and enhance agility and flexibility.
+Containers: The challenge of using different software and configurations across different environments can be addressed by using containers, which package all the necessary dependencies and configurations in a single container.
+
+
+Hypervisors work by emulating machine hardware and bringing up other virtual machines (VMs) as guest operating systems on top of that hardware.
+Container virtualization is virtualization at the operating system level, rather than the hardware level.
+Advantages of containers:
+Guest operating systems share the same kernel and sometimes parts of the operating system with the host.
+Leaner and smaller than hypervisor guests.
+Disadvantages of containers:
+Cannot run different kernels in the system.
+Cannot install a Windows container on a Linux host or vice-versa.
+Isolation and security: the isolation between the host and the container is not as strong as hypervisor- based virtualization, as all containers share the same kernel of the host and there have been cases in the past where a process in the container has managed to escape into the kernel space of the host.
+Please note that this is a summary of a small section of the text provided, and it's not clear what is the context of this section in the whole text.
+
+Docker is an open-source application container engine with Apache license version 2.0, first released in March 2013, and it has more than 27,000 GitHub stars.
+Docker allows simple environment isolation and repeatability and also it's fast and simple.
+The Docker system has four basic commands:
+Push: pushes an image to a registry
+Search: searches for an image in a registry
+Pull: pulls an image from a registry
+Run: runs a container using an image
+Dockerfile: defines what goes on in the environment inside your container.
+Services with Docker Compose: services are "containers in production" that codify the way that image runs.
+Continuous deployment pipeline with Docker: check automated build options using web hooks in Docker cloud build.
+Container Orchestration with Docker-Compose: It uses YAML files to configure the application's services and performs the creation and start-up process of all the containers with a single command.
+Container Orchestration with Kubernetes (K8s): Kubernetes is an open-source container orchestration system for automating the deployment, scaling, and management of containerized applications. It has a Control Plane (Master), Distributed storage system (etcd) and Cluster nodes (kubelets)
+
+The cloud refers to scalable and elastic IT-enabled capabilities that are delivered as a service to external customers using Internet technologies.
+The goals of the cloud are:
+Increased availability and reliability
+Reduced investments and proportional costs
+Increased scalability
+The cloud reference architecture includes the following actors:
+Cloud consumer: A person or organization that maintains a business relationship with, and uses service from, cloud providers.
+Cloud provider: A person, organization, or entity responsible for making a service available to interested parties.
+Cloud auditor: A party that can conduct independent assessment of cloud services, information system operations, performance and security of the cloud implementation.
+Cloud broker: An entity that manages the use, performance and delivery of cloud services, and negotiates relationships between cloud providers and cloud consumers.
+Cloud carrier: An intermediary that provides connectivity and transport of cloud services from cloud providers to cloud consumers.
+Essential characteristics of the cloud include:
+On-demand self-service: The ability to get computing capabilities as needed automatically.
+Broad network access: Capabilities are available over the network using mobile phones, tablets, laptops, workstations etc.
+Resource pooling: The provider's computing resources are pooled to serve multiple consumers using a multi-tenant model.
+Location independence: Resources include storage, processing, memory, and network bandwidth.
+Rapid elasticity: The ability to quickly scale in/out service
+Measured service: Cloud systems automatically control and optimize resources based on metering at some level of abstraction appropriate to the type of service (e.g., storage, processing, bandwidth, and active user accounts).
+Cloud services are categorized as XaaS (Anything as a Service)
+
+
+Cloud services - XaaS
+Infrastructure as a Service (IaaS): Provides virtualized computing resources over the Internet.
+Platform as a Service (PaaS): Provides a platform for the development and deployment of custom applications, including middleware, runtime environments, and development tools.
+Software as a Service (SaaS): Provides software applications over the Internet, typically on a subscription basis.
+Data as a Service (DaaS): Provides access to data over the Internet, typically on a subscription basis.
+Security as a Service (SECaaS): Provides security solutions over the Internet, typically on a subscription basis.
+Cloud deployment models
+Public cloud: A cloud infrastructure that is owned and operated by a third-party provider and made available to the public over the Internet.
+Private cloud: A cloud infrastructure that is operated solely for an organization, typically within the organization's own data center.
+Hybrid cloud: A combination of public and private clouds, connected by technology that allows data and applications to be shared between them.
+Cloud service models
+IaaS: Provides virtualized computing resources over the Internet.
+PaaS: Provides a platform for the development and deployment of custom applications, including middleware, runtime environments, and development tools.
+SaaS: Provides software applications over the Internet, typically on a subscription basis.
+Cloud service models comparison
+IaaS: provides the lowest level of abstraction, giving users the most control over their computing resources.
+PaaS: provides an abstraction layer over IaaS, making it easier for users to develop and deploy applications.
+SaaS: provides the highest level of abstraction, with users having little or no control over the underlying computing resources.
+The cloud challenges
+Security: Cloud providers are responsible for the security of their infrastructure and services, but customers are responsible for the security of their data
+Compliance: Organizations must ensure that they are in compliance with relevant regulations and standards when using cloud services.
+Governance: Organizations must establish policies and procedures for managing and governing their use of cloud services.
+Interoperability: Organizations must ensure that their cloud services can work together and with their existing systems and applications.
+Integration: Organizations must integrate their cloud services with their existing systems and applications.
+Performance: Organizations must ensure that their cloud services meet their performance requirements.
+Service Level Agreements (SLAs): Organizations must review and understand the SLAs offered by cloud providers to ensure that they meet their needs.
+Vendor lock-in: Organizations must consider the risk of being locked into a specific cloud provider and the potential difficulties of moving their data and applications to another provider.
+Cloud security
+Encryption: Cloud providers must encrypt data in transit and at rest to protect against unauthorized access.
+Access control: Cloud providers must implement access controls to ensure that only authorized users can access data and systems.
+Identity and access management: Cloud providers must implement identity and access management systems to control access to data and systems.
+Compliance: Cloud providers must ensure that their services comply with relevant regulations and standards.
+Auditing: Cloud providers must implement auditing systems to track access to data and systems.
+Incident response: Cloud providers must have incident response plans in place to respond to security incidents.
+Penetration testing: Cloud providers must perform regular penetration testing to identify and remediate vulnerabilities in their services.
+Cloud governance
+Cloud governance is the process of establishing policies and procedures for managing and governing the use of cloud services.
+It includes defining roles and responsibilities, establishing standards and guidelines, and monitoring and reporting on the use of cloud services.
+Cloud governance also involves ensuring compliance with relevant regulations and standards, and managing risks associated with the use of cloud services.
+Cloud migration
+Cloud migration is the process of moving data, applications, and other workloads from on-premises IT environments to the cloud.
+The goal of cloud migration is to take advantage of the benefits of cloud computing, such as scalability, flexibility, and cost savings.
+The process of cloud migration involves assessing the readiness of existing applications and data, planning the migration, executing the migration, and managing the post-migration environment.
+
+XaaS (Everything as a Service) includes various types of services such as Network as a Service (NaaS), Storage as a Service (STaaS), Security as a Service (SECaaS), Backend as a Service (BaaS), Desktop as a Service (DaaS), and Test Environment as a Service (TEaaS).
+
+Four main types of deployment models:
+
+Public cloud - infrastructure is open to the general public, owned, managed, and operated by a business, academic, or government organization.
+Private cloud and outsourced private cloud - infrastructure is exclusively for a single organization.
+Community cloud - infrastructure is for a specific community of organizations with shared concerns.
+Hybrid model - a combination of two or more distinct cloud infrastructures.
+Fundamental cloud architectures:
+
+Workload distribution architecture - involves adding identical IT resources and a load balancer to distribute workload evenly.
+Resource pooling architecture - involves grouping identical IT resources in a system that ensures they remain synchronized.
+Dynamic scalability architecture - involves predefined scaling conditions that trigger the dynamic allocation of IT resources from resource pools to handle fluctuating usage demand.
+
+Public cloud: Cloud infrastructure is provisioned for open use by the general public. It may be owned, managed, and operated by a business, academic, or government organization, or some combination of them. It exists on the premises of the cloud provider.
+Private cloud and out-sourced private cloud: Cloud infrastructure is provisioned for exclusive use by a single organization comprising multiple consumers (e.g., business units). It may be owned, managed, and operated by the organization, a third party, or some combination of them, and it may exist on or off premises.
+Community cloud: Cloud infrastructure is provisioned for exclusive use by a specific community of consumers from organizations that have shared concerns (e.g., mission, security requirements, policy, and compliance considerations). It may be owned, managed, and operated by one or more of the organizations in the community, a third party, or some combination of them, and it may exist on or off premises.
+Hybrid model: Cloud infrastructure is a composition of two or more distinct cloud infrastructures (private, community, or public) that remain unique entities, but are bound together by standardized or proprietary technology that enables data and application portability (e.g., cloud bursting for load balancing between clouds).
+Also, there are different types of fundamental cloud architectures:
+
+Workload distribution architecture: IT resources can be horizontally scaled via the addition of one or more identical IT resources, and a load balancer that provides runtime logic capable of evenly distributing the workload among the available IT resources.
+Resource pooling architecture: A resource pooling architecture is based on the use of one or more resource pools, in which identical IT resources are grouped and maintained by a system that automatically ensures that they remain synchronized.
+Dynamic scalability architecture: This architecture is based on a system of predefined scaling conditions that trigger the dynamic allocation of IT resources from resource pools. Dynamic allocation enables variable utilization as dictated by usage demand fluctuations.
+The NIST (National Institute of Standards and Technology) cloud computing reference architecture is used as a guide for the deployment models and architectures discussed above.
