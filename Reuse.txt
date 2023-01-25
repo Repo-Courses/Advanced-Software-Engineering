@@ -1,0 +1,71 @@
+What are some of the key concepts of software architecture that support software reuse?
+
+*  Clearly defined interfaces: Interfaces that clearly specify the inputs and outputs of a component, making it easy to understand and use in other projects.
+
+*  Separation of concerns: Dividing a software system into distinct parts, each with a specific responsibility, making it easier to identify and extract reusable components.
+
+*  Modularity: Designing software as a set of independent, interchangeable modules that can be combined to create a larger system, making it easier to extract and insert components for reuse.
+
+*  Loose coupling and high cohesion: Loosely coupled components that have a high level of cohesion are less dependent on each other, making it easier to reuse them in other contexts without affecting the overall system.
+
+*  Information hiding: Hiding internal details of a component to make it easier to use and understand, and to allow for plug-and-play usage in different contexts.
+
+*  Abstraction: A clear abstraction of the problem domain and the software components supporting it enables a cleaner separation of concerns, making it easier to identify reusable components.
+
+*  Standardization: A standardized way of building and packaging software components, making it easy to discover, understand and re-use them.
+
+What are the main types of reuse and what are their characteristics?
+
+  * Opportunistic or ad-hoc reuse: Unplanned reuse of existing software artifacts, can lead to difficulty in adapting to new contexts.
+  
+  Problems with ad-hoc reuse
+    Even though applied widely: Clone-and-Own paradigm Ad-hoc reuse does not scale!
+  ▪ Lack of structured means of organizing and managing artifacts ▪ Search effort
+  ▪ Evaluation effort
+  ▪ Adaptation effort (artifacts often need customization)
+  ▪ Integration effort
+  ▪ Clone detection and maintenance
+
+  * Planned or structured reuse: Systematic planning and development of reusable artifacts, can lead to reduced development time, increased quality and lower cost.
+
+Why reuse often does not work...
+▪ Conflict between flexibility and stability
+▪ Need to be flexible enough to fit multiple contexts
+→ too much flexibility leads to expensive adaptations
+▪ Need to be stable and comprehensive enough to really generate reusability benefits
+→too little flexibility limits generic applicability
+
+
+What is the difference between a variability subject and a variability object?
+
+  * A variability subject is a variable item of the real world or a variable property of such an item, while a variability object is a particular instance of a variability subject. For example, "color" is a variability subject, while "red", "green", and "blue" are variability objects
+
+Explain the concept of external variability and give an example.
+
+  * External variability refers to the variability of domain artifacts that is visible to customers. For example, in a home automation system, customers can choose between different door lock identification mechanisms such as keypad, magnetic card, and fingerprint scanners.
+
+Explain the concept of internal variability and give an example.
+
+  * Internal variability refers to the variability of domain artifacts that is hidden from customers. For example, in a home automation system, the communication protocol of a home automation system network offers two different modes. 
+
+What is managed variability and what does it support?
+
+  *  Managed variability is defined during domain engineering and is exploited during application engineering. It supports defining and exploiting variability.
+
+Why is it important to model variability explicitly?
+
+  * 
+
+What are the shortcomings of modeling variability within traditional software development models?
+
+What is an orthogonal variability model and how does it relate to other software development models?
+
+  * An orthogonal variability model is a separate model that defines the variability of a software product line, it relates the variability defined to other software development models such as feature model, use case models, design models, component models, and test models
+What is the purpose of variability management?
+
+  * Variability management is the process of relating the variability defined in the variability model to software artifacts specified in other models, textual documents, and code, such as requirements, architecture, code and tests.
+  
+What is a feature diagram and how is it used to model variability?
+
+  * A feature diagram is a way of modeling variability, it depicts variation points and different variants. Variation points can be mandatory or optional and may have interdependencies.
+Explain the concepts of variation points, mandatory variation points, and optional variation points and how they relate to feature diagrams.
