@@ -1,0 +1,34 @@
+What is a good test case?
+
+* A good test case is one that is well-designed, thorough, and ensures that software functions as expected.
+* It should have clear and measurable expected outcomes, cover all relevant scenarios and edge cases, be repeatable, and provide meaningful results. 
+* Additionally, a good test case should be easy to understand and maintain, and should accurately reflect the requirements and design of the software being tested.
+
+What is the definition of testability in software engineering?
+
+* Testability refers to the ease with which a software system or component can be tested to determine whether it meets specified requirements. 
+* It is a quality attribute of software that affects how easily and effectively the software can be tested. 
+* Testability is an important factor in ensuring software quality and reliability.
+
+What are the properties of a program that make it easier to find problems?
+
+ * Modularity: A modular program is easier to test and debug as it is composed of smaller, self-contained components.
+
+ * Readability: A program that is well-documented, easy to understand, and has a clear structure makes it easier to identify and fix problems.
+
+ * Testability: A program that is designed with testability in mind is easier to test, as it has clear and well-defined inputs, outputs, and error conditions.
+
+ * Isolation: A program that has isolated components and clear boundaries between them is easier to test, as issues can be isolated and addressed without affecting the rest of the system.
+
+ * Maintainability: A program that is well-designed and maintainable is easier to debug, as it is easier to understand, modify, and extend.
+
+ * Logging and tracing: Programs with effective logging and tracing mechanisms make it easier to identify and debug problems, as they provide detailed information about the state of the system during execution.
+
+Difficulties in testing software systems: 
+  * Complexity, time and resources, changing requirements, interactions between components, hidden dependencies, non-deterministic behavior, and external factors are some of the difficulties in testing software systems.
+
+Example of a testability problem: 
+  * An example of a testability problem is when a software system has no clear and well-defined inputs, outputs, and error conditions, making it difficult to test and debug.
+
+Observability and Controllability in software testing: 
+  * Observability refers to the extent to which the internal state of a software system can be observed during testing. Controllability refers to the extent to which the inputs of a software system can be controlled during testing. Both observability and controllability are important factors in ensuring that software systems can be effectively tested and debugged. A software system that is highly observable and controllable is easier to test and debug, as it provides more information about its behavior and allows for more precise control of its inputs.
