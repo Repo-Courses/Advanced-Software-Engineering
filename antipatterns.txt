@@ -1,0 +1,70 @@
+Define antipatterns in software engineering and give an example of one.
+
+* Antipatterns are bad habits or practices in software development that result in inefficient, error-prone, or hard-to-maintain code. One example is the Blob antipattern where a single class includes functions and variables for multiple, unrelated objects.
+
+What is the difference between software development antipatterns and software architecture antipatterns?
+
+  * Software development antipatterns refer to bad practices within the code or implementation of software, such as cut-and-paste programming. 
+  * Software architecture antipatterns refer to larger-scale issues with the structure of the software, such as Blob antipattern where a class encompasses functions and variables for multiple, unrelated objects.
+
+Explain the root causes for antipatterns in software projects.
+
+  * Lack of object oriented architecutre practise,
+  * Lack of design-arhitectural patterns practise, 
+  * Lack of architecture enforcement, 
+  * Specfied disasters, 
+  * Lack of collaboration and communication within the development team
+  
+What are the "7 deadly sins" in software practice and describe one of them. ( What are the common mistakes in software project management and development?) 
+
+  * Reinventing the wheel
+  * Not being lazy enough
+  * Overdesign
+  * Not embracing failure
+  * Overgeneralization
+  * Being too incremental
+  * Premature optimization
+
+Explain the importance of refactoring in software development and give an example of a form of code modification used in refactoring.
+
+  * Refactoring is important in software development as it helps improve code readability, maintainability and reduces technical debt. 
+    An example of refactoring is renaming a variable for better clarity and consistency.
+
+What is the goal of antipatterns in software engineering and how do they help software practitioners?
+  
+  * Main goal of antipatterns is decribing useful form of refactoring practises.
+  * With this refactoring pracrisees, developers does not need to reinvent the wheel. And can improve code maintainability and redice techical problems.
+
+Chatgpt answer: 
+
+  * The goal of antipatterns in software engineering is to identify and describe common problematic patterns in software development. By studying and applying antipatterns, software practitioners can improve their code, reduce technical problems, and enhance code maintainability by avoiding repetitive mistakes. Refactoring practices based on antipatterns can help practitioners avoid reinventing the wheel and make their code more maintainable.
+
+
+What is the antipattern Golden Hammer?
+
+  * Using  same tools and design methods in all software dev. process. 
+  
+  * It refers to the tendency to use a familiar tool or approach excessively, even when it may not be the best fit for the problem at hand. 
+
+What are the typical causes of Golden Hammer antipattern?
+
+  * It can lead to a lack of flexibility and increased complexity in the software development process.
+  
+What is the solution to the Golden Hammer antipattern?
+
+  * Main solution is learning other design practises, and be aweare of latest tech. and tools. 
+  * And using the right tool for the right job, instead of blindly applying the same tool to every problem.
+
+What is the antipattern Design by Committee?
+  
+ * Her kafadan bir ses cikmasi, 
+ Design by Committee antipattern is the situation in which too many people are involved in decision making about software design, leading to too many opinions, requirements and making design decision slow and difficult. 
+ The solution is to have a clear decision-making authority and clearly defined design goals.
+
+What are the typical causes of Design by Committee antipattern?
+
+* Over-involvement of stakeholders, managers and team members in the design process.
+* Lack of clear design ownership, decision-making power and accountability.
+* Inadequate communication and coordination among contributors.
+* Conflicting opinions, preferences and interests among stakeholders.
+* Inability to reach consensus or make timely decisions on design choices.
