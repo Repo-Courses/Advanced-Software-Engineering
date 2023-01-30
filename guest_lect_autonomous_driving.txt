@@ -1,0 +1,73 @@
+
+The development of an autonomous driving system is a complex and multi-faceted challenge. It requires the translation of high-dimensional inputs from environment and vehicle sensors into steering, brake and motor controls. The development of autonomous vehicles and Advanced Driver Assistance Systems (ADAS) typically follows three phases: research, pre-development, and production.
+
+The architecture of an autonomous driving system can be broken down into functional, software, and hardware components. The functional architecture is developed initially in the research phase and refined during later phases. The predominant functional architecture in modern autonomous vehicles is the Sense-Plan-Act architecture.
+
+Autonomous vehicles use a combination of cameras, radar, and lidar sensors to sense and perceive the environment. Cameras provide important perception inputs, serving as the basis for the autonomous driving system. The use of sensors is crucial to the successful operation of an autonomous vehicle.
+
+Machine Learning in Autonomous Driving:
+
+Recent advances in machine learning, particularly deep neural networks, have influenced the algorithmic approach in various components of an AV stack.
+Models are learned from labeled data, leading to improved performance in computer vision tasks.
+However, large amounts of data and specialized hardware are required for efficient, real-time processing.
+Examples of machine learning applications in autonomous driving include:
+Camera sensors: 3D camera object detection, semantic segmentation
+Lidar sensors: 3D lidar object detection, lidar semantic segmentation
+Sensor data fusion: Deep neural networks can take input from multiple sensors for a learned approach to sensor data fusion
+Planning components: ChauffeurNet is an example of deep neural networks driving the vehicle and learning prediction and planning tasks
+Architecture for Safety:
+
+A key challenge in autonomous driving is designing a functional architecture that is robust to failures.
+Redundant systems are used to ensure safety, with a focus on collision avoidance.
+A redundant system may override the main system or apply constraints.
+Examples include: Responsibility Sensitive Safety from Intel/MobilEye, Redundant Supervisor Channel.
+
+Software Architecture:
+
+The functional architecture of a software system requires several layers of software architecture, each with its own set of implementation details affecting system performance.
+The layers include the Applications Framework, Data Transport, Operating System, and Hardware.
+Applications framework refers to the implementation of functional code into components and examples include Object detection, Localization, Planning, etc.
+Base software refers to a common set of functions and utilities for system integration and examples include ROS, AUTOSAR Adaptive, Qt, NodeJS, etc.
+Data transport refers to communication mechanisms between processes and can include DDS, SHMEM, SOME/IP, MQTT, Websockets, Protobuf, etc.
+Operating System includes the kernel, scheduler, drivers, etc. to manage and interface hardware with software and examples include Linux, QNX, INTEGRITY, PikeOS, FreeRTOS, etc.
+Hardware refers to physical compute boards with SOCs, CPUs, MCUs, GPUs, DSPs, etc. and examples include Intel, NVIDIA, Renesas, TI, Qualcomm, etc.
+Software Frameworks for Autonomous Driving:
+
+Requirements for a software framework include functions, utilities, APIs, partitioning of system into components, data transmission and reception between components, component configuration, execution management, development and deployment tools, and compatibility with multiple programming languages and platforms.
+Popular software frameworks for autonomous driving include Robot Operating System (ROS), MATLAB/Simulink, AUTOSAR, NVIDIA DriveWorks, EB Assist ADTF, TTTech Auto MotionWise, Apex.OS and Apex.Middleware developed by Apex.AI.
+Robot Operating System (ROS):
+
+ROS is the most popular framework for developing robotics and other applications.
+It is open-source with thousands of contributors worldwide, widely adopted by universities, research institutes, and companies.
+ROS has thousands of packages for sensors, perception, SLAM, motion planning, etc. and powerful tools for visualization, introspection, debugging, etc.
+ROS supports multiple programming languages and hundreds of autonomous vehicles in R&D use ROS.
+The basics of ROS include Nodes (single processing entity), Topics (data channels), Messages (data type transmitted), Publisher (transmitter), Subscriber (receiver), and Service (request/response mechanism).
+
+Hardware architecture in autonomous vehicle development:
+
+Research: Off-the-shelf hardware such as x86 PCs and network switches are used in early stages of development.
+Pre-development: Evaluation boards from chip vendors or ruggedized version from third parties are used to optimize software for embedded environment.
+Production: Hardware is produced in cooperation with a Tier 1 supplier, where several samples are produced before final version for start of production.
+Designing for safety and performance:
+
+A single ECU designed to be a central domain controller may contain multiple processing units (e.g. CPUs, GPUs, DSPs, NPUs, ASICs, FPGAs) for safety and performance.
+Communication between computing cores is achieved through various methods (e.g. SPI, Ethernet, PCI Express, shared memory).
+Some SOCs may combine multiple types of computing cores on a single chip.
+
+Software Engineering for autonomous vehicles requires large scale effort with complex and scalable software development, efficient and reliable integration, testing, and deployment. A large number of engineers must work towards a common goal while adhering to industry standards. Best practices such as writing clean, human-readable code, following SOLID and DRY principles, and conducting code reviews are crucial.
+Continuous Integration/Delivery/Deployment is vital and a pipeline must be set up for fleet management. Testing, including unit testing, is a crucial aspect and must be treated with the same standards as production code. Tests should be automated, repeatable, and independent, testing behavior rather than implementation.
+
+Software Engineering for Autonomous Vehicles:
+
+Requires complex and scalable software development, efficient integration, testing, and deployment
+Teams of engineers work towards a common goal while adhering to industry standards
+Best practices include clean code, SOLID and DRY principles, and code reviews
+Continuous Integration/Delivery/Deployment is essential with a pipeline for fleet management
+Testing, including unit testing, should have same standards as production code and be automated, repeatable, and test behavior, not implementation
+Compliance in Safety-Critical Products:
+
+Standards and guidelines important, such as SAFe, LeSS, ASPICE, ISO 26262, and ISO 21448
+Guidelines used to prevent coding errors, such as AUTOSAR C++ 14 and MISRA C++
+Approach:
+
+Depends on company and product, may include Agile development processes
