@@ -1,0 +1,14 @@
+Briefly explain the MapReduce algorithm and translate the following SQL statement to a MapReduce function (5 Point)
+SELECT employee FROM employees WHERE salary_level > 3
+
+A MapReduce program is composed of a map procedure (or method), which performs filtering and sorting (such as sorting students by first name into queues, one queue for each name), and a reduce method, which performs a summary operation (such as counting the number of students in each queue, yielding name frequencies)
+
+map(key, record):
+  if(record.salary_level > 3)
+    selection = (record.employee)
+    emit(key, selection)
+    
+    
+A datamart is a smaller version of a company's overall data that is used by one specific business area, such as marketing or finance. It helps people in that area quickly find and analyze the data they need to make important decisions.
+
+A data cube, on the other hand, is like a big cube made up of many smaller cubes. Each small cube holds information about a specific aspect of a company's data, such as sales by time and location. Data cubes make it easy for people to see and understand the relationships between different pieces of information in the data.
