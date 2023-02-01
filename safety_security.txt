@@ -1,0 +1,104 @@
+Safety Thresholds: Safety thresholds in software engineering refer to the level of risk that is acceptable in a system. It defines the boundary between safe and unsafe conditions.
+
+Non-Software Products: The idea of safety thresholds applies to non-software products as well. Products such as automobiles, medical devices, and aerospace systems also have to meet safety requirements.
+
+Safe Enough Threshold: The threshold of "safe enough" is determined based on a variety of factors, including the consequences of a failure, the likelihood of a failure, and the ease of detecting and correcting the failure. The determination of the threshold is a trade-off between cost, functionality, and safety.
+
+100% Safe: No product can be considered 100% safe, as there will always be some level of risk involved. The goal is to minimize risk to an acceptable level.
+
+Safety vs Security: Safety and security are related but distinct concepts in software engineering. Safety refers to the ability of a system to avoid harm to people or property, while security refers to the ability of a system to protect against unauthorized access or malicious attacks.
+
+Software vs Traditional Systems: Software systems have different safety requirements than traditional systems such as automobiles, as software can have more complex interactions and potential for unintended consequences.
+
+Y-Axis: The Y-axis in the graph of "unsafe/dangerous" and "safe" represents the level of risk in a system.
+
+Faults, Errors, and Failures: In the context of software safety, faults are potential problems in the software code, errors are the actual mistakes made by users or the software itself, and failures are the resulting problems that occur when the software doesn't perform as expected.
+
+Functional Safety: Functional safety in software engineering refers to the ability of a system to perform its intended function in a safe and reliable manner. It focuses on avoiding harm to people or property, even in the event of a failure.
+
+FMEA and FTA: The purpose of safety analysis using FMEA (Failure Mode and Effects Analysis) and FTA (Fault Tree Analysis) is to identify and assess the potential hazards and risks associated with a system. These techniques help to identify possible failure modes and the consequences of those failures, allowing for risk reduction and mitigation strategies to be developed.
+
+Risk: In the context of software engineering, risk refers to the potential for harm or damage to occur, as a result of a failure in the system. It is defined as the combination of the likelihood of a failure and the consequences of that failure.
+
+Tolerable and Unreasonable Risk: Tolerable risk is the level of risk that is acceptable and reasonable, given the potential consequences and likelihood of a failure. Unreasonable risk is the level of risk that is unacceptable and exceeds what is reasonable given the potential consequences and likelihood of a failure. These levels of risk are determined based on a variety of factors, including industry standards, regulations, and best practices.
+
+Safety in Software Engineering: Safety is critical in software engineering, as software systems are often used in safety-critical applications, such as medical devices, automobiles, and aerospace systems. The role of stakeholders in ensuring safety includes developers, system engineers, regulators, and end-users.
+
+Hazards vs Risks: A hazard is a source of potential harm, while a risk is the likelihood of harm occurring. Hazards and risks are related, as the likelihood of harm increases with the presence of a hazard.
+
+Faults, Errors, and Failures in System Failure: Faults, errors, and failures can contribute to the failure of a system by creating potential for harm, leading to mistakes, or causing the system to not perform as intended.
+
+Explain the importance of safety in software engineering and the role of stakeholders.
+
+Safety in software engineering is important to prevent harm to users or the environment caused by software malfunctions or failures. Stakeholders, such as users, developers, regulators, and manufacturers, play a role in ensuring the safety of software by defining requirements, designing systems, and verifying their safety through testing and analysis.
+
+What is the difference between a hazard and a risk?
+
+A hazard is a potential source of harm, while risk is the likelihood of harm occurring and the severity of that harm. A hazard becomes a risk when it is combined with the likelihood of it occurring and the consequences it would cause.
+
+How do faults, errors, and failures contribute to the failure of a system?
+
+Faults are inherent weaknesses in the design or implementation of a system. Errors are human actions or decisions that produce incorrect or unexpected results. Failures are the actual breakdown of a system, caused by faults or errors. Together, these contribute to the failure of a system by creating opportunities for harm to occur.
+
+Describe the process of conducting a risk analysis, including risk assessment and risk reduction.
+
+Risk analysis is the process of identifying and analyzing potential hazards in a system and determining the risks they pose. This involves risk assessment, which involves estimating the likelihood and consequences of each identified hazard, and risk reduction, which involves implementing measures to minimize or eliminate the risks.
+
+Discuss the safety analyses techniques of FMEA and FTA and how they are applied in software engineering.
+
+FMEA (Failure Mode and Effects Analysis) and FTA (Fault Tree Analysis) are safety analysis techniques used to identify potential hazards and assess the risks they pose in a system. FMEA involves analyzing the potential failure modes of individual components or systems and the effects of those failures, while FTA involves constructing a tree diagram to analyze the causes of a potential system failure. Both techniques are applied in software engineering to identify and evaluate safety risks in software systems and to inform the design and testing of safe systems.
+
+What is the significance of standards such as IEC 61508 and ISO 26262 in software engineering?
+
+IEC 61508 and ISO 26262 are internationally recognized functional safety standards for software engineering. They provide guidelines and best practices for ensuring the functional safety of electrical/electronic systems, including software systems, by defining requirements for the development and implementation of safe systems. Adherence to these standards can help ensure the safety and reliability of software systems and increase confidence in their safety.
+
+Explain the steps involved in converting software requirements into system design, including the role of software architecture, antipatterns, reuse, testability, and information security.
+
+The steps involved in converting software requirements into system design include:
+
+Defining the software requirements through stakeholder input and analysis.
+Developing the software architecture to ensure that the system design meets the requirements and provides a clear structure for the software.
+Identifying and avoiding antipatterns, which are common mistakes in software design.
+Reusing existing components and systems where possible to increase efficiency and reduce risk.
+Ensuring the software design is testable by creating tests for the system and its components.
+Considering information security requirements and ensuring that the system design implements appropriate security measures.
+What is the percentage of traffic accidents with personal injuries caused by technical factors?
+
+The percentage of traffic accidents with personal injuries caused by technical factors varies depending on the specific context, but it can be significant. For example, in some cases, technical factors such as vehicle malfunctions or software failures have been found to contribute to a significant number of accidents and fatalities.
+
+What is the goal of risk reduction in functional safety?
+The goal of risk reduction in functional safety is to minimize or eliminate the risk of harm to people, property, or the environment, caused by the failure of a system.
+
+What does functional safety focus on?
+Functional safety focuses on the safe and reliable operation of systems, processes, or equipment.
+
+What is the definition of functional safety according to IEC 61508 and ISO 26262?
+According to IEC 61508 and ISO 26262, functional safety is the part of the overall safety related to the design and implementation of systems, processes, or equipment, that ensures that these systems will perform their intended functions safely and reliably under normal and abnormal conditions.
+
+What is the lifecycle approach in functional safety and what does it emphasize?
+The lifecycle approach in functional safety emphasizes a systematic and comprehensive approach to the design, implementation, operation, and maintenance of systems, processes, or equipment, with the goal of ensuring their safe and reliable performance.
+
+What is the primary concern of the safety life cycle in functional safety?
+The primary concern of the safety life cycle in functional safety is the identification and elimination of hazards, and the management of risks associated with the systems, processes, or equipment being developed or operated.
+
+What are the systematic hazard identification and analysis techniques used in functional safety?
+The systematic hazard identification and analysis techniques used in functional safety include Hazard and Operability Studies (HAZOP), Hazard Analysis and Critical Control Points (HACCP), Fault Tree Analysis (FTA), and Failure Mode and Effects Analysis (FMEA).
+
+What are the protection layers used for risk reduction in functional safety?
+The protection layers used for risk reduction in functional safety include hardware and software redundancy, mitigation strategies, and backup or emergency systems.
+
+What is the integration of safety into the design in functional safety?
+The integration of safety into the design in functional safety involves considering safety requirements throughout the entire lifecycle of the system, process, or equipment, from design and implementation to operation and maintenance.
+
+What are the qualitative and quantitative approaches used in functional safety?
+The qualitative and quantitative approaches used in functional safety include hazard identification and risk assessment, safety analysis techniques such as Fault Tree Analysis (FTA) and Failure Mode and Effects Analysis (FMEA), and safety integrity level (SIL) determination.
+
+Explain the difference between qualitative and quantitative safety analysis methods.
+Qualitative safety analysis methods rely on expert judgment and experience to identify hazards and assess risks, while quantitative safety analysis methods use numerical and statistical methods to quantitatively evaluate the likelihood and consequences of potential hazards and risks.
+
+Describe the two alternative classification schemes for safety analysis and provide an example of each.
+The two alternative classification schemes for safety analysis are probabilistic risk assessment (PRA) and deterministic safety analysis. An example of PRA is a probabilistic fault tree analysis (PRA-FTA), and an example of deterministic safety analysis is a failure modes and effects analysis (FMEA).
+
+Discuss the advantages and disadvantages of combining Fault Tree Analysis (FTA) and Failure Mode and Effects Analysis (FMEA) for safety analysis.
+Combining Fault Tree Analysis (FTA) and Failure Mode and Effects Analysis (FMEA) for safety analysis provides a comprehensive view of the hazards and risks associated with a system. The advantage of this combination is that FTA provides a systematic method for analyzing complex systems, while FMEA provides a comprehensive view of individual components and their failure modes. The disadvantage of this combination is that it can be time-consuming and complex, requiring significant expertise in both methods.
+
