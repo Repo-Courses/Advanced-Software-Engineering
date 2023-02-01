@@ -17,3 +17,15 @@ Cross-site scripting (XSS) is a type of security vulnerability that allows an at
 Buffer overflow attacks occur when an attacker inputs more data into a buffer than it can handle, resulting in the overflow of data into adjacent memory locations. This can allow an attacker to overwrite return addresses, potentially allowing the attacker to take control of the system.
 
 Reflective (or non-persistent) XSS is a type of XSS where malicious code is directly sent from the client to the server and then returned to the client. An example of this is where a web application returns a message to the user such as "You want to execute: ActionName". If an attacker modifies the action name to contain malicious code, the code will be executed by the browser of any user who visits the website.
+
+
+Trade-offs
+Information security may interfere with
+▪ Performance
+▪ E.g., signing every message on a CAN bus in a car is infeasible
+▪ Usability
+▪ Have seen examples before
+▪ Time to market
+▪ Because you need to carefully think your design and your code
+▪ Cost objectives
+▪ Because security is expensive
