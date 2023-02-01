@@ -1,0 +1,19 @@
+Least privilege: Ensure that every subject has only the privileges necessary to perform its approved job. Examples: Keys/locks in an office building, access to personnel files only granted to HR employees, regular office workers only needing access to standard office applications and a directory to store data.
+
+Complete mediation: Control access to every object in a way that is not circumventable. Examples: Using an encrypted-file system to protect against "layer-below attacks," end-to-end encryption to prevent traffic sniffing, and airport security checks before entering sensitive areas.
+
+Secure, fail-safe defaults: Security mechanisms should start in a secure state and return to a secure default state in case of failures. Examples: Firewalls using white-lists, cleaning up temporary files after crashes, doors locking when closed.
+
+Compartmentalization: Organize resources into isolated groups (compartments, zones) with limited communication. Examples: Running sensitive applications on separate machines, using virtualization to separate applications, partitioning a network into separate zones, separating data and code to avoid problems, using software mechanisms like encapsulation, modularization, and object-orientation.
+
+Minimum exposure: Minimize the attack surface that a system presents to potential adversaries. Examples: Hardening an OS by disabling unneeded functionality, not giving out information that helps "fingerprint" a system, applying mechanisms like captchas or time-outs to prevent password guessing attacks, minimizing the number of entry points to a physical location.
+
+Implementation-level security refers to security measures taken during the development and deployment of software. This includes protection against common vulnerabilities such as SQL injections, cross-site scripting (XSS), and buffer overflow attacks.
+
+SQL injections are attacks where malicious input is entered into a web application, allowing attackers to execute unauthorized SQL commands in the database. This can occur when the application does not properly validate and sanitize user input.
+
+Cross-site scripting (XSS) is a type of security vulnerability that allows an attacker to inject malicious code into a website, which then gets executed by the browser of an unsuspecting user. XSS attacks can be classified into non-persistent (or reflected) and persistent attacks. Non-persistent attacks involve sending malicious code directly from the client to the server and then returning it to the client. Persistent attacks involve storing malicious code in the server and sending it from the server to the client.
+
+Buffer overflow attacks occur when an attacker inputs more data into a buffer than it can handle, resulting in the overflow of data into adjacent memory locations. This can allow an attacker to overwrite return addresses, potentially allowing the attacker to take control of the system.
+
+Reflective (or non-persistent) XSS is a type of XSS where malicious code is directly sent from the client to the server and then returned to the client. An example of this is where a web application returns a message to the user such as "You want to execute: ActionName". If an attacker modifies the action name to contain malicious code, the code will be executed by the browser of any user who visits the website.
