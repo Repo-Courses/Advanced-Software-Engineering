@@ -1,0 +1,9 @@
+Least privilege: Ensure that every subject has only the privileges necessary to perform its approved job. Examples: Keys/locks in an office building, access to personnel files only granted to HR employees, regular office workers only needing access to standard office applications and a directory to store data.
+
+Complete mediation: Control access to every object in a way that is not circumventable. Examples: Using an encrypted-file system to protect against "layer-below attacks," end-to-end encryption to prevent traffic sniffing, and airport security checks before entering sensitive areas.
+
+Secure, fail-safe defaults: Security mechanisms should start in a secure state and return to a secure default state in case of failures. Examples: Firewalls using white-lists, cleaning up temporary files after crashes, doors locking when closed.
+
+Compartmentalization: Organize resources into isolated groups (compartments, zones) with limited communication. Examples: Running sensitive applications on separate machines, using virtualization to separate applications, partitioning a network into separate zones, separating data and code to avoid problems, using software mechanisms like encapsulation, modularization, and object-orientation.
+
+Minimum exposure: Minimize the attack surface that a system presents to potential adversaries. Examples: Hardening an OS by disabling unneeded functionality, not giving out information that helps "fingerprint" a system, applying mechanisms like captchas or time-outs to prevent password guessing attacks, minimizing the number of entry points to a physical location.
